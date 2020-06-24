@@ -14,8 +14,8 @@ public class TestGitController {
 
     @GetMapping("/test")
     public String test() {
-        System.out.println("这个同学A开发的版本");
-        System.out.println("合并到主分支然后提交");
+        System.out.println("test1");
+
         return "hello world";
     }
 }
