@@ -14,8 +14,7 @@ public class TestGitController {
 
     @GetMapping("/test")
     public String test() {
-        System.out.println("test1");
-
+        System.out.println("这个同学A开发的版本");
         return "hello world";
     }
 }
